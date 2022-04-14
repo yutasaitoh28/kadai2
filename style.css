@@ -1,0 +1,128 @@
+html {
+    background: #fffff3;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ff7878;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-left: 10px solid #ff7878;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#name {
+    vertical-align: middle;
+    margin: 10px 0 20px 0;
+}
+
+#result {
+    width: 500px;
+    background: #fff;
+    padding: 30px;
+    border: 10px solid #00b4c7;
+    font-size: 28px;
+    color: #ff7878;
+}
+
+#luck {
+    text-align: center;
+    width: 100%;
+    background-color: #eee;
+}
+
+#luck > h2 {
+    padding-top: 15px;
+    margin: 0 auto;
+	color: #00b4c7;
+    font-size: 20px;
+}
+
+#getResult {
+    background: #ff7878;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: serif;
+	margin: 10px auto 20px auto;
+	padding: 5px 20px;
+	border-radius: 30px;
+}
+
+#getResult:hover {
+    background: #fc0;
+}
+
+#img {
+    width: 240px;
+}
+
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+#button01 {
+    animation:blink 1.5s ease-in-out infinite alternate;
+    width: 250px;
+    height: 30px;
+    background-color: #ff7878;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+#button01 a {
+    text-decoration: none;
+    color: white;
+}
+
+#seizaImg {
+    width: 200px;
+}
+
+#seiza-select {
+    font-size: 16px;
+    text-align: center;
+    background: #fffff3;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+    color: #ff7878;
+    border-color: #ff7878;
+    font-weight: bold;
+}
+
+#seizaresult {
+    color: red;
+}
+
+#seiza-result {
+    margin: auto;
+    width: 800px;
+    background: #fff;
+    padding: 15px 10px 10px 25px;
+    border: 10px solid #00b4c7;
+    font-size: 28px;
+    color: #ff7878;
+    margin-top: 50px;
+}

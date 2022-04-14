@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>姓名占い</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>姓名占い</h1>
+        
+        <div class="content">
+            <div id="result">
+                <div id="luck">
+                    <h2>貴方が明日何をすべきか占います</h2>
+                    <p><input type="text" id="name" value=""></p>
+                    <p><img src="images/luck.jpeg" id="img"></p>
+                    <p><input type="button" id="getResult" value="占う"></p>
+                    <div id="tweet"></div>
+                </div> 
+            </div>
+            <button onclick="location.href='seiza.html'" id="button01">
+                <a>今日の星座ランキングを見る →</a>
+            </button>
+        </div>
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
